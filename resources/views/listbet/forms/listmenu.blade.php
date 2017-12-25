@@ -1,0 +1,5 @@
+<li class="active"><a class="no-margins text-center" href="/listbet"><i class="fa fa-list-ol"></i> รายการโพยล่าสุด</a></li>
+    <li style="background:#FFE8CC"><a class="no-margins text-center text-nowrap" href="/listbet/backListBet"><i class="fa fa-history"></i> รายการโพยย้อนหลัง</a></li>
+    <li style="background:#D5DCE8"><a class="no-margins text-center text-nowrap" href="/listbet/listYeeGee"><i class="fa fa-list-ol"></i> รายการโพยจับยี่กี<img style="height:15px" src="/assets/imgs/new.gif" alt=""></a></li>
+    <li style="background:#D5DCE8"><a class="no-margins text-center text-nowrap" href="/listbet/backListYeeGee"><i class="fa fa-history"></i> รายการโพยจับยี่กีย้อนหลัง<img style="height:15px" src="/assets/imgs/new.gif" alt=""></a></li>
+    <li style="background:#eaeaea"><a class="no-margins text-center text-nowrap" href="/listbet/reportBet"><i class="fa fa-calendar-check-o"></i> สรุปยอดแทง</a></li>
