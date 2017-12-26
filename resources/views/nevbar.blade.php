@@ -9,48 +9,48 @@
               <div class="visible-xs pull-right credit-mobile-box" data-id="593331">
                 <a data-toggle="tooltip" data-placement="bottom" title="" data-original-title="เครดิต"><i class="fa fa-refresh"></i> <span class="credit">427.25</span></a>
               </div>
-              <a href="https://www.jetsadabet.com/member" class="navbar-brand"><img src="../JETSADABET_files/logo.png" height="23"></a>
+              <a href="/" class="navbar-brand"><img src="/../JETSADABET_files/logo.png" height="23"></a>
             </div>
             <div class="navbar-collapse collapse" id="navbar">
               <ul class="nav navbar-nav m-t-none">
                 
-                <li class="active">
-                  <a href="https://www.jetsadabet.com/member">
+                <li id="index" class="active">
+                  <a href="/">
                     <i class="fa fa-th-large"></i>หน้าหลัก
                   </a>
                 </li>
-                <li class="">
+                <li id="bet" class="">
                   <a href="/bet">
                     <i class="fa fa fa-sign-in"></i>แทงหวย
                   </a>
                 </li>
-                <li class="">
+                <li id="listbet" class="">
                   <a href="/listbet">
                     <i class="fa fa fa-list-ol"></i>รายการโพย
                   </a>
                 </li>
-                <li class="">
-                  <a href="https://www.jetsadabet.com/member/lottery/result">
+                <li id="awards" class="">
+                  <a href="/awards">
                     <i class="fa fa-trophy"></i>ดูผลรางวัล
                   </a>
                 </li>
-                <li class="">
-                  <a href="https://www.jetsadabet.com/member/request">
+                <li id="depositWithdraw" class="">
+                  <a href="/depositWithdraw">
                     <i class="fa fa-money"></i>แจ้ง ฝาก/ถอน
                   </a>
                 </li>
-                <li class="">
-                  <a href="https://www.jetsadabet.com/member/credit">
+                <li id="reportCredit" class="">
+                  <a href="/reportCredit">
                     <i class="fa fa-credit-card"></i>รายงานเครดิต
                   </a>
                 </li>
-                <li class="">
-                  <a href="https://www.jetsadabet.com/member/affiliate">
+                <li id="introduce" class="">
+                  <a href="/introduce">
                     <i class="fa fa-users"></i>ระบบแนะนำ
                   </a>
                 </li>
-                <li class="">
-                  <a href="https://www.jetsadabet.com/member/number-sets"><i class="fa fa-fw fa-list-ol"></i> สร้างเลขชุด</a>
+                <li id="groupNumber" class="">
+                  <a href="/groupNumber"><i class="fa fa-fw fa-list-ol"></i> สร้างเลขชุด</a>
                 </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">

@@ -6,25 +6,26 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JETSADABET</title>
-  <script async="" src="../JETSADABET_files/prum.min.js"></script>
-  <script async="" src="../JETSADABET_files/analytics.js"></script>
-  <script src="../JETSADABET_files/a96brPStUf0Y6NN5f7Sye0dMsAs.js"></script>
+  <script async="" src="/../JETSADABET_files/prum.min.js"></script>
+  <script async="" src="/../JETSADABET_files/analytics.js"></script>
+  <script src="/../JETSADABET_files/a96brPStUf0Y6NN5f7Sye0dMsAs.js"></script>
   <link rel="icon" href="https://www.jetsadabet.com/assets/favicon.ico" type="image/x-icon">
-  <link href="../JETSADABET_files/bootstrap.min.css" rel="stylesheet">
-  <link href="../JETSADABET_files/font-awesome.min.css" rel="stylesheet">
-  <link href="../JETSADABET_files/flag-icon.min.css" rel="stylesheet">
-  <link href="../JETSADABET_files/stylesheet.css" rel="stylesheet">
-  <link href="../JETSADABET_files/custom.css" rel="stylesheet">
-  <link href="../JETSADABET_files/jquery.fancybox.min.css" rel="stylesheet">
-  <link href="../JETSADABET_files/style.min.css" rel="stylesheet">
-  <link href="../JETSADABET_files/animate.min.css" rel="stylesheet">
-  <link href="../JETSADABET_files/hamburgers.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/bootstrap.min.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/font-awesome.min.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/flag-icon.min.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/stylesheet.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/custom.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/jquery.fancybox.min.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/style.min.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/animate.min.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/hamburgers.css" rel="stylesheet">
 
-  <link href="../JETSADABET_files/pnotify.css" rel="stylesheet">
-  <link href="../JETSADABET_files/pnotify.brighttheme.css" rel="stylesheet">
-  <link href="../JETSADABET_files/pnotify.mobile.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/pnotify.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/pnotify.brighttheme.css" rel="stylesheet">
+  <link href="/../JETSADABET_files/pnotify.mobile.css" rel="stylesheet">
 
-  <link href="../JETSADABET_files/custom(1).css" rel="stylesheet">
+  <link href="/../JETSADABET_files/custom(1).css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Scripts -->
   <script>
     window.App = {
@@ -38,8 +39,52 @@
       AGENTUSERID: 10185
     }
   </script>
-  
-  
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script>
+
+$(function(){
+  //var li = $('a[href="'+location.pathname+'"]').parent();
+  //alert(location.pathname);
+  $('li').removeClass('active');
+
+  if(location.pathname=="/"){
+    $('#index').addClass('active');
+  }
+  if(location.pathname=="/bet"){
+    $('#bet').addClass('active');
+  }
+  if(location.pathname=="/listbet"){
+    $('#listbet').addClass('active');
+  }
+  if(location.pathname=="/awards"){
+    $('#awards').addClass('active');
+  }
+  if(location.pathname=="/depositWithdraw"){
+    $('#depositWithdraw').addClass('active');
+  }
+  if(location.pathname=="/reportCredit"){
+    $('#reportCredit').addClass('active');
+  }
+  if(location.pathname=="/introduce"){
+    $('#introduce').addClass('active');
+  }
+  if(location.pathname=="/groupNumber"){
+    $('#groupNumber').addClass('active');
+  }
+  //if(location.pathname=="/bet"){
+    //$('a').addClass('active');
+  //}
+//  li.addClass('active');
+
+//  li.parent().parent().addClass('active');
+
+//  li.parent().parent().parent().parent().addClass('active');
+//  li.parent().parent().parent().parent().parent().parent().addClass('active');
+})
+</script>
   <style>
     #flashnews {
       max-width: 800px;
@@ -68,7 +113,7 @@
         
           <div class="footer">
             <div>
-              <strong>Copyright © 2015, JETSADABET All Rights Reserved.</strong>
+              <strong>Copyright © 2015, JETSADABET All Rights Reserved. <i class="fa-th-large"></i></strong>
             </div>
           </div>
 
@@ -155,6 +200,6 @@
     });
   </script>
 
-
+@yield('footer')
 
 <div class="nanobar" style="position: fixed;"><div class="bar"></div></div></body></html>
